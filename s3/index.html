@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 
+<head>
+    <meta charset="UTF-8">
+    <title>www.AccountableGoals.com</title>
+</head>
+
 <body>
-    <p>Congratulations on successfully reaching this demonstration.</p>
-    <p>May your future be as bright as a high quality LCD screen set to its maximum brightness level.</p>
-    
-    <form method="POST" action="https://no9h6u4g64.execute-api.us-east-1.amazonaws.com/api/eat">
-        <input type="text" name="name" placeholder="name"/>
-        <input type="number" name="calories" step="1" min="0.00" placeholder="calories"/>
-        <input type="number" name="cost" step="0.01" min="0.00" placeholder="cost"/>
-        <button type="submit">Eat</button>
+    <p>Congratulations on successfully reaching this demonstration. May your future be as bright as a high quality LCD screen set to its maximum brightness level.</p>
+    <form method="GET" action="history.html">
+        <button type="submit">View my history of consumption</button>
+    </form>
+    <br/>
+    <form method="GET" action="eat.html">
+        <button type="submit">Log a new meal</button>
     </form>
 </body>
