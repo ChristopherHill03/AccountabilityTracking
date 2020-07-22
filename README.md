@@ -1,2 +1,2 @@
 # AccountabilityTracking
-This branch contains static files hosted on Amazon S3 for www.accountablegoals.com
+This branch contains source code files that are used in AWS Lambda functions for back-end services.
