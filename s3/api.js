@@ -1,5 +1,18 @@
 
-function postEat(formID) {
+function post_notificationSignup(formID) {
+    $form = $("#" + formID);
+    $.ajax({
+        type: "POST",
+        url: "TODO",
+        data: $form.serialize(),
+        success: function (data) {
+            alert(data)
+        },
+        dataType: "json"
+    });
+}
+
+function post_eat(formID) {
     $form = $("#" + formID);
     $.ajax({
         type: "POST",
@@ -12,7 +25,7 @@ function postEat(formID) {
     });
 }
 
-function getEat(divID) {
+function get_eat(divID) {
     var div = $("#" + divID);
     $.ajax({
         type: "GET",
