@@ -1,3 +1,3 @@
 # AccountabilityTracking
 This branch contains documentation and plans for the project located at www.accountablegoals.com.
-The code files and assets are located inside specific branches.
+Code files and assets are inside specific branches whose names correlate with where they're deployed and used.
